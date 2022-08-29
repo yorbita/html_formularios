@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Yorbelys Brito</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <!-- Radiobutton -->
+        <legend>¿Cuál es tu idioma favorito?</legend>
+        <input type="radio" id="eng" name="idioma" value="idiomaingles">
+        <label for="idiomaingles">Inglés</label><br>
+        <input type="radio" id="ger" name="idioma" value="idiomaaleman">
+        <label for="idiomaaleman">Alemán</label><br>
+        <input type="radio" id="fr" name="idioma" value="idiomafrances">
+        <label for="idiomafrances">Francés</label><br>
+        </fieldset>
+<br><br>
+        
+        <!-- Lista desplegable -->
+        <fieldset>
+         <legend>¿Cuál es tu tipo de conector favorito?</legend>
+         <select name="Conector" id="conector">
+         <option value="usb">USB</option>
+         <option value="paralelo">Paralelo</option>
+         <option value="vps2">PS2</option>
+         </select>
+         </fieldset>
+<br><br>
+
+        <!-- Cuadro de texto -->
+        <fieldset>
+        <legend>Indíca tu nombre y apellidos</legend>
+        <input type="texto" id="name1" name="Nombre">
+        <label for="Nombre">Nombre</label><br>
+        <input type="texto" id="lastname1" name="Apellidos">
+        <label for="Apellidos">Apellidos</label><br>
+        </fieldset>
+<br><br>
+
+        <!-- Lista deplegable múltiple -->
+        <fieldset>
+        <legend>¿Cuál es tu sexo?</legend>    
+        <select>
+        <option value="Hombre">Hombre</option>
+        <option value="Mujer">Mujer</option>
+        </select>
+        </fieldset>
+<br><br>
+
+        <!-- Checkbox -->
+        <fieldset>
+        <legend>Indíca tu sexo... de nuevo</legend>
+        <input type="checkbox" id="sexom" name="sexo" value="sexomujer">
+        <label for="sexom">Mujer</label><br>
+        <input type="checkbox" id="sexof" name="sexo" value="sexohombre">
+        <label for="sexof">Hombre</label><br>
+        </fieldset>
+<br><br>
+
+        <!-- Fecha -->
+        <fieldset>
+        <input type="date">
+        <input type="time">
+    </fieldset>
+    </form>
+</body>
+</html>
